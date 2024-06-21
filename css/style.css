@@ -1,2 +1,39 @@
 /* bootstrap icons*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* mudules imports */
+@import url(./cssModules/bannerPrincipal.css);
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* main */
+main {
+  flex: 1;
+}
+
+/* navbar */
+.input-search-navbar {
+  &::placeholder {
+    color: #818181;
+  }
+}
+
+/* color cards*/
+.fuego {
+  background-color: #fd7d24;
+}
+.veneno {
+  background-color: #b97fc9;
+}
+.planta-bicho {
+  background-color: #9bcc4f;
+}
+.volador {
+  background-color: #bdb9b8;
+}
+.agua {
+  background-color: #0d6efd;
+}
