@@ -1,16 +1,16 @@
 .img-banner-principal {
-  height: 350px;
-  object-fit: cover;
-}
-
-@media (max-width: 576px) {
-  .img-banner-principal {
-    height: 200px;
+    height: 350px;
+    object-fit: cover;
   }
-}
-
-@media (min-width: 577px) and (max-width: 992px) {
-  .img-banner-principal {
-    height: 270px;
+  
+  @media (max-width: 576px) {
+    .img-banner-principal {
+      height: 200px;
+    }
   }
-}
+  
+  @media (min-width: 577px) and (max-width: 992px) {
+    .img-banner-principal {
+      height: 270px;
+    }
+  }
