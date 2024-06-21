@@ -5,18 +5,18 @@
 @import url(./cssModules/bannerPrincipal.css);
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /* main */
-main{
-    flex: 1;
+main {
+  flex: 1;
 }
 
 /* navbar */
-.input-search-navbar{
-    &::placeholder{
-        color: #818181;
-    }
+.input-search-navbar {
+  &::placeholder {
+    color: #818181;
+  }
 }
