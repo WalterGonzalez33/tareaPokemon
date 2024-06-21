@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="dark">
+<html lang="es" data-bs-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,18 +21,18 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg bg-danger">
             <div class="container">
-              <a class="navbar-brand" href="#">Pokedex</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarActive" aria-controls="navbarActive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <a class="navbar-brand text-light" href="#">Pokedex</a>
+              <button class="navbar-toggler focus-ring focus-ring-light border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarActive" aria-controls="navbarActive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fs-2 text-light"><i class="bi bi-list"></i></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarActive">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex text-center text-lg-start">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inico</a>
+                    <a class="nav-link text-light active" aria-current="page" href="#">Inico</a>
                   </li>
                     <!-- lista del menu desactivada -->
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" href="./pages/error404" role="button" aria-disabled="true" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-white-50 disabled" href="./pages/error404" role="button" aria-disabled="true" data-bs-toggle="dropdown" aria-expanded="false">
                       Categorias
                     </a>
                     <ul class="dropdown-menu">
@@ -42,17 +42,15 @@
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control border-1 border-secondary focus-ring focus-ring-light me-2 bg-light text-dark input-search-navbar" type="search" placeholder="Buscar un pokemon" aria-label="Search">
-                  <button class="btn border border-1 border-light" type="submit"><i class="bi bi-search"></i></button>
+                  <button class="btn border border-1 border-light text-light" type="submit"><i class="bi bi-search"></i></button>
                 </form>
               </div>
             </div>
         </nav>
     </header>
 
-    <main>
-    </main>
-
-    <footer class="bg-body">
+    <!-- footer -->
+    <footer class="bg-dark text-light">
         <div class="container">
             <div class="w-100 text-center p-4">
                 <p>&copy; Todos los derechos reservados</p>
