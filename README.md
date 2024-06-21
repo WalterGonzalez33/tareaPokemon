@@ -10,4 +10,5 @@ Información detallada: Muestra información detallada de cada Pokémon, incluye
 ##### Frontend:
 - HTML5
 - CSS3
+- Bootstrap
 - JavaScript
