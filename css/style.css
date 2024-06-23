@@ -46,3 +46,18 @@ main {
 .agua {
   background-color: #0d6efd;
 }
+.psiquico{
+  background-color: #f366b9;
+}
+.hielo{
+  background-color: #51c4e7;
+}
+.detalle--imagen{
+  width: 100%;
+}
+@media  (min-width: 1400px)  {
+  
+  .detalle--imagen{
+    width: 25rem;
+  }
+}
