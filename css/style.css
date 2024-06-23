@@ -3,6 +3,7 @@
 
 /* mudules imports */
 @import url(./cssModules/bannerPrincipal.css);
+@import url(./cssModules/aboutUs.css);
 
 body {
   min-height: 100vh;
