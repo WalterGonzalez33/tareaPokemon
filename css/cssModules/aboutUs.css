@@ -1,0 +1,65 @@
+.aboutUs-avatars-container {
+  max-width: 850px;
+}
+.title-aboutUs {
+  font-size: 2.8rem;
+}
+.avatar-aboutUs {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #303092;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+  }
+}
+
+.img-avatar-aboutUs {
+  width: 100%;
+  transform: scale(1.15);
+  z-index: 1;
+}
+
+.pokeball-aboutUs {
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  top: 0;
+  transform: scale(1);
+  z-index: 2;
+  transition: all 0.4s ease-in;
+
+  &:hover {
+    opacity: 0;
+    transform: rotate(40deg);
+    transition: all 0.4s ease-in;
+  }
+}
+.pokeballText-aboutUs {
+  max-width: 350px;
+}
+
+@media (min-width: 1200px) {
+  .section-aboutUs-avatars {
+    height: 40vh;
+    position: relative;
+    margin-bottom: 150px;
+  }
+  .aboutUs-avatars-container {
+    width: 900px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .text-aboutUs {
+    width: 50%;
+  }
+}
