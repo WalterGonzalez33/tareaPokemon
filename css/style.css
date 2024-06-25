@@ -56,6 +56,9 @@ main {
 .detalle--imagen{
   width: 100%;
 }
+.evoluvion{
+  background-color: hsl(0, 0%, 81%);
+}
 @media  (min-width: 1400px)  {
   
   .detalle--imagen{
