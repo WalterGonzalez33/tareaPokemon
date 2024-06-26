@@ -47,18 +47,37 @@ main {
 .agua {
   background-color: #0d6efd;
 }
-.psiquico{
+.psiquico {
   background-color: #f366b9;
 }
-.hielo{
+.hielo {
   background-color: #51c4e7;
 }
-.detalle--imagen{
+.detalle--imagen {
   width: 100%;
 }
-@media  (min-width: 1400px)  {
-  
-  .detalle--imagen{
+.evoluvion {
+  background-color: hsl(0, 0%, 81%);
+}
+
+@media (max-width: 575.98px) {
+  .tamanio-Tipo {
+    font-size: large;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tamanio-Tipo {
+    font-size: large;
+  }
+}
+@media (min-width: 992px) {
+  .tamanio-Tipo {
+    font-size: large;
+  }
+}
+@media (min-width: 1400px) {
+  .detalle--imagen {
     width: 25rem;
   }
 }
