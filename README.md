@@ -28,9 +28,6 @@ $ git clone https://github.com/WalterGonzalez33/tareaPokemon.git
 
 ## Autores 🧑‍💻
 
-[![Walter Gonzalez](https://avatars.githubusercontent.com/u/83594534?v=4)](https://github.com/WalterGonzalez33)  | [![Santino Hamada](https://avatars.githubusercontent.com/u/122135338?v=4)](https://github.com/santinohamada) | [![Bruno Cordoba](https://avatars.githubusercontent.com/u/173731958?v=4)](https://github.com/brunoCordoba21) | [![Augusto Brito](https://avatars.githubusercontent.com/u/134075862?v=4)](https://github.com/BritoAugusto)
----|---
-[Walter Gonzalez ](https://github.com/WalterGonzalez33) |[Santino Hamada](https://github.com/santinohamada) |[Bruno Cordoba](https://github.com/brunoCordoba21) |[Augusto Brito](https://github.com/BritoAugusto)
-
-
-
+| [![Walter Gonzalez](https://avatars.githubusercontent.com/u/83594534?v=4)](https://github.com/WalterGonzalez33)  | [![Santino Hamada](https://avatars.githubusercontent.com/u/122135338?v=4)](https://github.com/santinohamada) | [![Bruno Cordoba](https://avatars.githubusercontent.com/u/173731958?v=4)](https://github.com/brunoCordoba21) | [![Augusto Brito](https://avatars.githubusercontent.com/u/134075862?v=4)](https://github.com/BritoAugusto) |
+|---|---|---|---|
+| [Walter Gonzalez](https://github.com/WalterGonzalez33) | [Santino Hamada](https://github.com/santinohamada) | [Bruno Cordoba](https://github.com/brunoCordoba21) | [Augusto Brito](https://github.com/BritoAugusto) |
